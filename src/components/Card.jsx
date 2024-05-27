@@ -15,14 +15,14 @@ const Wrapper = styled.div`
 `;
 
 const Name = styled.h4`
-  margin-bottom: 4px; /* Adjust this value to control the spacing */
+  margin-bottom: 4px; 
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 `;
 
 const Text = styled.p`
-  margin-top: 0; /* Ensure there's no extra space above the text */
+  margin-top: 0; 
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;

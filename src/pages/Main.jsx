@@ -6,11 +6,11 @@ import axios from "axios";
 
 const CardWrapper = styled.div`
   display: grid;
-  grid-template-columns: repeat(3, 260px); /* Fixed card width */
-  gap: 10px; /* Narrower gap between cards */
-  justify-content: center; /* Center the cards */
-  width: 80%; /* Adjust width as needed */
-  margin: auto; /* Center the CardWrapper */
+  grid-template-columns: repeat(3, 260px);
+  gap: 10px; 
+  justify-content: center;
+  width: 80%;
+  margin: auto; 
 `;
 
 const Main = ()=>{
